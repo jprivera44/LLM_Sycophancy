@@ -1,3 +1,5 @@
+#Author: Gabe Mukobi
+
 """Data classes."""
 
 from dataclasses import dataclass
