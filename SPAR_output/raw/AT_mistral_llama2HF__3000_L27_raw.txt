@@ -1,1 +1,0 @@
-BackendResponse(completion='{"total_answer_plus_score": 30, "total_answer_minus_score": 16, "total_regular_answer_score": 0, "Total_number_none": 0}', completion_time_sec=4.186, prompt_tokens=3232, completion_tokens=35, total_tokens=3267)
