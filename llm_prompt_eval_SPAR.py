@@ -99,7 +99,7 @@ def main():
 
     input_folder_path = "./SPAR_input"
     file_pattern = f"{input_folder_path}/*.json"
-    raw_output_folder = "./SPAR_output/raw"
+    raw_output_folder = "./SPAR_output/raw/version_2"
     json_output_folder = "./SPAR_output/json"
 
     os.makedirs(raw_output_folder, exist_ok=True)
