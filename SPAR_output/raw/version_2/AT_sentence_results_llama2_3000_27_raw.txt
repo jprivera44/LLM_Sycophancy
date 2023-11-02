@@ -1,0 +1,1 @@
+BackendResponse(completion='{"total_answer_plus_score": 33, "total_answer_minus_score": 17, "total_number_none": 0}', completion_time_sec=1.985, prompt_tokens=3139, completion_tokens=26, total_tokens=3165)

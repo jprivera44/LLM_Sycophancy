@@ -1,0 +1,14 @@
+openai
+anthropic
+# torch # Install torch separately https://pytorch.orgget-started/locally/
+transformers
+backoff
+wandb
+pandas
+matplotlib
+seaborn
+accelerate
+bitsandbytes
+scipy
+sentencepiece
+constants
