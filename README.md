@@ -1,6 +1,11 @@
 # LLM_Sycophancy
 This project focuses on the work of understanding sycophantic behavior within LLMs.
 
+**Authors
+Juan-Pablo Rivera
+
+Special thanks:
+Nina Rimsky for her work on LLM sycophancy**
 
 ## Description
 This repository, contaiins the code for a series of experiments that have been formed to better understand sycophancy within LLMs. The specific models that are a portion of focus are listed below:
@@ -34,11 +39,7 @@ We welcome contributions from the community. If you wish to contribute to this p
 License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-Authors
-Juan-Pablo Rivera
 
-Special thanks:
-Nina Rimsky for her work on LLM sycophancy
 
 ## Initial results:
 
