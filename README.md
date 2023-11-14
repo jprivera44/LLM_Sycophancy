@@ -44,13 +44,11 @@ Nina Rimsky for her work on LLM sycophancy
 
 Experiments that have been conducted have mainly been focused on establishing a hihgly repeatable baseline for activating sycophancy, and performing visualizations on various activations of sycophancy based off input datasets from Anthropic[1]. I perform a forward pass 
 
-Geometry figure 1:
-![Screen Shot 2023-11-03 at 4 40 54 PM](https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/839f7a70-b475-4231-a002-a9c3e094810b)
-
-
 
 Geometry figure 2:
 ![tsne_syco_plot](https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/d0342082-95b9-4421-a8b4-1be26c191afa)
+
+After running the forward pass on the Antrhopic dataset of 3,000 examples of sycophantic vs. non-sycophantic pairs, I decided to plot the activations from all the layers with a t-SNE method. The results above show the separation between sycophantic & non-sycophatnic responses. The issue with the graph is that these clusters might not be truly representative of sycophancy, and mainly that they are not linearly separable.  
 
 
 ### References:
