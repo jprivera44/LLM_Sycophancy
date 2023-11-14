@@ -45,7 +45,7 @@ Nina Rimsky for her work on LLM sycophancy
 Experiments that have been conducted have mainly been focused on establishing a hihgly repeatable baseline for activating sycophancy, and performing visualizations on various activations of sycophancy based off input datasets from Anthropic[1]. I perform a forward pass 
 
 Geometry figure 1:
-![Screen Shot 2023-11-07 at 1 26 48 PM](https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/28cf86f1-2adc-4fd0-8916-ac5ec78b2bd8)
+![Screen Shot 2023-11-03 at 4 40 54 PM](https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/839f7a70-b475-4231-a002-a9c3e094810b)
 
 
 
