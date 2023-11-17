@@ -41,17 +41,17 @@ Experiments that have been conducted have mainly been focused on establishing a 
 
 
 
-Geometry of Sycophancy V1:
+Activation Understand of Sycophnatic vector vs. random noise:
 
 Image 1:
 <br>
 <img src="https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/e1a9e894-ddcf-4409-8e06-69319a2e5add" width="500" height="300">
 <br>
-Caption: Above is the showing the results from an experiment where I mesured the success of linear probes to distinguish sycophancy, however I had results that didn't make sense. The dataset used  was only mesuring Sycophancy as a single word answer, and you can see above that there is no separtion in a model separting these because there is not snough signal from a single word form of Sycophancy when agreeing or dis-agreeing with a text.
+Caption: Experimentation of the results from running activations on Mistral 7B to see how behavior was impacted by also incoproating random noise with the same average & variance to see the output. Above is a visualization of those activations.
 
 <br>
 <br>
-Geometry of Sycophancy V2:
+Geometry of Sycophancy:
 
 
 The dataset below has the input datasets consist of sentence long indications for sycophancy instead of single word answers.
@@ -60,7 +60,9 @@ Image 2:
 <br>
 <img src="https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/70717bbc-37a6-46b1-b07f-cae0054c8a7d" width="500" height="300">
 <br>
-Caption: Here is are teh activations for the Sycophantic vs. Non-sycophantic results from the network. As seen above the results are not linearly separable.
+
+Caption: Above is the showing the results from an experiment where I mesured the success of linear probes to distinguish sycophancy, however I had results that didn't make sense. The dataset used  was only mesuring Sycophancy as a single word answer, and you can see above that there is no separtion in a model separting these because there is not snough signal from a single word form of Sycophancy when agreeing or dis-agreeing with a text input.
+<br>
 
 Image 3:
 <br>
