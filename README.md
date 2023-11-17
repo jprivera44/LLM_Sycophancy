@@ -31,22 +31,51 @@ After installation, the notebook can be run in a Jupyter environment. It walks t
 
 To open the notebook, use:
 
-jupyter notebook Graph_llama2_model_geometry_sycophancy_* the experiment number you would like to run.
-
+jupyter notebook Main_notebook.ipynb to run the most recent experiments with refactored code.
 
 
 
 ## Initial results:
 
-Experiments that have been conducted have mainly been focused on establishing a hihgly repeatable baseline for activating sycophancy, and performing visualizations on various activations of sycophancy based off input datasets from Anthropic[1]. I perform a forward pass 
+Experiments that have been conducted have mainly been focused on establishing a highly repeatable baseline for activating sycophancy, and performing visualizations on various activations of sycophancy based off input datasets from Anthropic[1]. I perform a forward pass 
 
 
 
+Geometry of Sycophancy V1:
 
-Geometry figure 2:
-![tsne_syco_plot](https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/d0342082-95b9-4421-a8b4-1be26c191afa)
+Image 1:
+<br>
+<img src="https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/e1a9e894-ddcf-4409-8e06-69319a2e5add" width="500" height="300">
+<br>
+Caption: Above is the showing the results from an experiment where I mesured the success of linear probes to distinguish sycophancy, however I had results that didn't make sense. The dataset used  was only mesuring Sycophancy as a single word answer, and you can see above that there is no separtion in a model separting these because there is not snough signal from a single word form of Sycophancy when agreeing or dis-agreeing with a text.
+
+<br>
+<br>
+Geometry of Sycophancy V2:
 
 
+The dataset below has the input datasets consist of sentence long indications for sycophancy instead of single word answers.
+
+Image 2:
+<br>
+<img src="https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/70717bbc-37a6-46b1-b07f-cae0054c8a7d" width="500" height="300">
+<br>
+Caption: Here is are teh activations for the Sycophantic vs. Non-sycophantic results from the network. As seen above the results are not linearly separable.
+
+Image 3:
+<br>
+<img src="https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/d0342082-95b9-4421-a8b4-1be26c191afa" width="500" height="300">
+<br>
+Caption: After the usage of PCA, I ran the same dataset with t-SNE to understand if there was a plane of separation, however instead there is a mix of clusters.
+
+
+MLP Activation exploration:
+
+Image 4:
+<br>
+<img src="https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/3eb7e069-8fa2-4190-8f22-49e442a7ca60" width="500" height="300">
+<br>
+Caption: The above image captures an experiment that I ran that involved measuring the activations of the MLPs across all the layers within the network, for Llama2.  The hypotheses is that if Sycophany exists in a neural network i measuretable way it might not activate all of the MLP layers in an equal manner. The above indicates there is no discerable pattern that emerges, therefore the input dataset needs to change, or the neural network could be too small in terms of the number of parameters to find a difference.
 
 # Evaluation Script Usage
 
@@ -76,8 +105,9 @@ After running the forward pass on the Antrhopic dataset of 3,000 examples of syc
 
 
 ### References:
-[1]: https://huggingface.co/datasets/Anthropic/model-written-evals/tree/main/sycophancy 
-[2] : https://www.lesswrong.com/posts/zt6hRsDE84HeBKh7E/reducing-sycophancy-and-improving-honesty-via-activation 
+[Anthropic Model Written Evals Dataset](https://huggingface.co/datasets/Anthropic/model-written-evals/tree/main/sycophancy)
+<br>
+[Nina Rimsky's blog post](https://www.lesswrong.com/posts/zt6hRsDE84HeBKh7E/reducing-sycophancy-and-improving-honesty-via-activation) 
 
 Contributing
 I welcome contributions from the community. If you wish to contribute to this project, please follow the guidelines in the CONTRIBUTING.md file.
