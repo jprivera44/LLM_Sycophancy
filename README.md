@@ -51,34 +51,27 @@ Geometry figure 2:
 
 
 #
-\section{Evaluation Script Usage}
+# Evaluation Script Usage
 
-\subsection{Description}
-The \texttt{llm\_prompt\_eval.py} script is designed to evaluate Large Language Models (LLMs) by prompting them with specific evaluation data. This tool is essential for analyzing and understanding the responses of LLMs in various contexts.
+## Description
+The `llm_prompt_eval.py` script is designed to evaluate Large Language Models (LLMs) by prompting them with specific evaluation data. This tool is essential for analyzing and understanding the responses of LLMs in various contexts.
 
-\subsection{Prerequisites}
-\begin{itemize}
-    \item Python 3.x
-    \item \texttt{openai} Python package
-    \item \texttt{requests} Python package
-    \item An API key for OpenAI (if using OpenAI's models)
-\end{itemize}
+## Prerequisites
+- Python 3.x
+- `openai` Python package
+- `requests` Python package
+- An API key for OpenAI (if using OpenAI's models)
 
-\subsection{Setup}
-\begin{enumerate}
-    \item Ensure you have Python 3.x installed on your system.
-    \item Install the required Python packages using the command: \texttt{pip install openai requests}.
-    \item Set your OpenAI API key as an environment variable: \texttt{export OPENAI\_API\_KEY='your-api-key'}.
-\end{enumerate}
+## Setup
+1. Ensure you have Python 3.x installed on your system.
+2. Install the required Python packages using the command: `pip install openai requests`.
+3. Set your OpenAI API key as an environment variable: `export OPENAI_API_KEY='your-api-key'`.
 
-\subsection{Running the Script}
-\begin{enumerate}
-    \item Navigate to the directory containing \texttt{llm\_prompt\_eval.py}.
-    \item Run the script using Python: \texttt{python llm\_prompt\_eval.py}.
-    \item The script will prompt for the necessary evaluation data and context.
-    \item Observe the output, which includes the LLM's responses to the evaluation prompts.
-\end{enumerate}
-
+## Running the Script
+1. Navigate to the directory containing `llm_prompt_eval.py`.
+2. Run the script using Python: `python llm_prompt_eval.py`.
+3. The script will prompt for the necessary evaluation data and context.
+4. Observe the output, which includes the LLM's responses to the evaluation prompts.
 
 #
 
