@@ -33,11 +33,6 @@ To open the notebook, use:
 
 jupyter notebook Graph_llama2_model_geometry_sycophancy_* the experiment number you would like to run.
 
-Contributing
-We welcome contributions from the community. If you wish to contribute to this project, please follow the guidelines in the CONTRIBUTING.md file.
-
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 
 
@@ -46,11 +41,13 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 Experiments that have been conducted have mainly been focused on establishing a hihgly repeatable baseline for activating sycophancy, and performing visualizations on various activations of sycophancy based off input datasets from Anthropic[1]. I perform a forward pass 
 
 
+
+
 Geometry figure 2:
 ![tsne_syco_plot](https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/d0342082-95b9-4421-a8b4-1be26c191afa)
 
 
-#
+
 # Evaluation Script Usage
 
 ## Description
@@ -73,7 +70,6 @@ The `llm_prompt_eval.py` script is designed to evaluate Large Language Models (L
 3. The script will prompt for the necessary evaluation data and context.
 4. Observe the output, which includes the LLM's responses to the evaluation prompts.
 
-#
 
 
 After running the forward pass on the Antrhopic dataset of 3,000 examples of sycophantic vs. non-sycophantic pairs, I decided to plot the activations from all the layers with a t-SNE method. The results above show the separation between sycophantic & non-sycophatnic responses. The issue with the graph is that these clusters might not be truly representative of sycophancy, and mainly that they are not linearly separable.  
@@ -81,6 +77,12 @@ After running the forward pass on the Antrhopic dataset of 3,000 examples of syc
 
 ### References:
 [1]: https://huggingface.co/datasets/Anthropic/model-written-evals/tree/main/sycophancy 
+[2] : https://www.lesswrong.com/posts/zt6hRsDE84HeBKh7E/reducing-sycophancy-and-improving-honesty-via-activation 
 
+Contributing
+I welcome contributions from the community. If you wish to contribute to this project, please follow the guidelines in the CONTRIBUTING.md file.
+
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
 
