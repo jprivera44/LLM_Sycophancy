@@ -1,5 +1,8 @@
 import torch as t
 
+#Re-factored from the Geometry of truth paper
+#Using these to pull out a linear representation in my network.
+
 class LRProbe(t.nn.Module):
     def __init__(self, d_in):
         super().__init__()

@@ -2,6 +2,7 @@
 Language model backends.
 
 Mostly copied from https://github.com/mukobi/welfare-diplomacy
+Also pulled from https://github.com/jprivera44/LLM_Sycophancy
 """
 
 from abc import ABC, abstractmethod
