@@ -49,6 +49,40 @@ Experiments that have been conducted have mainly been focused on establishing a 
 Geometry figure 2:
 ![tsne_syco_plot](https://github.com/jprivera44/LLM_Sycophancy/assets/9093934/d0342082-95b9-4421-a8b4-1be26c191afa)
 
+
+#
+\section{Evaluation Script Usage}
+
+\subsection{Description}
+The \texttt{llm\_prompt\_eval.py} script is designed to evaluate Large Language Models (LLMs) by prompting them with specific evaluation data. This tool is essential for analyzing and understanding the responses of LLMs in various contexts.
+
+\subsection{Prerequisites}
+\begin{itemize}
+    \item Python 3.x
+    \item \texttt{openai} Python package
+    \item \texttt{requests} Python package
+    \item An API key for OpenAI (if using OpenAI's models)
+\end{itemize}
+
+\subsection{Setup}
+\begin{enumerate}
+    \item Ensure you have Python 3.x installed on your system.
+    \item Install the required Python packages using the command: \texttt{pip install openai requests}.
+    \item Set your OpenAI API key as an environment variable: \texttt{export OPENAI\_API\_KEY='your-api-key'}.
+\end{enumerate}
+
+\subsection{Running the Script}
+\begin{enumerate}
+    \item Navigate to the directory containing \texttt{llm\_prompt\_eval.py}.
+    \item Run the script using Python: \texttt{python llm\_prompt\_eval.py}.
+    \item The script will prompt for the necessary evaluation data and context.
+    \item Observe the output, which includes the LLM's responses to the evaluation prompts.
+\end{enumerate}
+
+
+#
+
+
 After running the forward pass on the Antrhopic dataset of 3,000 examples of sycophantic vs. non-sycophantic pairs, I decided to plot the activations from all the layers with a t-SNE method. The results above show the separation between sycophantic & non-sycophatnic responses. The issue with the graph is that these clusters might not be truly representative of sycophancy, and mainly that they are not linearly separable.  
 
 
