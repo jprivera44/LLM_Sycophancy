@@ -1,11 +1,10 @@
 # LLM_Sycophancy
 This project focuses on the work of understanding sycophantic behavior within LLMs.
 
-**Authors
-Juan-Pablo Rivera
+Builds upon & leverages Nina Rimsky's work on Sycophancy:
+[Nina Rimsky's blog post](https://www.lesswrong.com/posts/zt6hRsDE84HeBKh7E/reducing-sycophancy-and-improving-honesty-via-activation) 
 
-Special thanks:
-Nina Rimsky for her work on LLM sycophancy**
+
 
 ## Description
 This repository, contaiins the code for a series of experiments that have been formed to better understand sycophancy within LLMs. The specific models that are a portion of focus are listed below:
